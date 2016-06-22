@@ -4,7 +4,7 @@ A simple demo for using ConvLSTM (CPU version) to generate next frame in a seque
 
 ## Steps to run this code:
 * clone this repository on your machine `git clone https://github.com/viorik/ConvLSTM_CPU.git`
-* download training and test datasets from [here](http://mi.eng.cam.ac.uk/~vp344/): dataset_fly_64x64_lines_train.t7 and dataset_fly_64x64_lines_train.t7
+* download training and test datasets from [here](http://mi.eng.cam.ac.uk/~vp344/): dataset_fly_64x64_lines_train.t7 and dataset_fly_64x64_lines_test.t7
 * specify the paths to the datasets in `opts-mnist.lua`, line 30-31
 * run the code using `qlua main-demo-ConvLSTM.lua`
 
